@@ -1,0 +1,205 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.background {
+    height: 100vh;
+   background-image: url(../img/back1.jpg);
+   background-size: cover;
+   overflow: hidden;
+}
+header {
+    width: 1170px;
+}
+.logo img {
+width: 5%;
+float: left;
+margin-top: -2px;
+}
+.logo {
+    display: inline-block;
+   width: 100%;
+}
+.logo p {
+    margin-top: 8px;
+    margin-left: 10px;
+    font-family: 'Bigshot One', cursive;
+    font-size: 40px;
+    float: left;
+    color: beige;
+    -webkit-text-stroke: 1px black;
+    -webkit-user-select: none;
+}
+.backboard {
+    margin-top: 15px;
+    background-color: rgb(196, 196, 196, 0.1);
+    width: 100%;
+    height: 55px;
+    border-radius: 10px;
+}
+ul {
+    list-style: none;
+    float: right;
+}
+li {
+    margin-top: 12px;
+    float: left;
+    margin-right: 20px;
+ 
+}
+
+li a {
+    padding: 5px;
+    transition: 0.4s ease-out;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    -webkit-text-stroke: 0.4px black;
+    font-family: 'Bigshot One', cursive;
+    border-radius: 15px;
+   transition: all 1s ease;
+
+
+}
+li a:hover {
+    background-color: rgb(255, 143, 123);
+    color: rgb(0, 0, 0, 142);
+}
+li > ul {
+    position:absolute;
+    top:60px;
+    display:none;   
+}
+li:hover > ul {
+    display:block; 
+    width:100px;  
+}
+li:hover > ul > li {
+    float:none; /*Убираем горизонтальное позиционирование*/
+}
+.color {
+    color: rgb(248, 69, 69);
+}
+
+.content {
+    width: 1170px;
+}
+.text {
+    width: 500px;
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+    font-family: 'Bigshot One', cursive;
+    -webkit-text-stroke: 0.4px black;
+    font-size: 50px;
+    text-shadow: 3px 3px black;
+    text-transform: uppercase;
+}
+.text P {
+    color: rgb(255, 255, 255);
+    transition: 0.5s ease-in-out;
+    user-select: none;
+}
+
+.text P:hover {
+    color: rgb(221, 102, 80);
+}
+.bottom {
+    margin-top: 150px;
+    width: 40px;
+    height: 40px;
+    background-color: #00cc99;
+    border-radius: 90px;
+    text-align: center;
+    transition: 0.4s ease-in;
+}
+.bottom:hover {
+    background-color: tomato;
+}
+
+.arrow img {
+    margin-top: 2px;
+    width: 40px;
+}
+.center {
+    height: 100vh;
+}
+.center_box {
+    margin-left: 266px;
+    
+    font-family: monospace;
+    box-sizing: border-box;
+}
+.text_box {
+    margin-top: 200px;
+    width: 500px;
+    float: left;
+    text-shadow: 0 0 1.3px;
+}
+
+
+.center_box p {
+    margin-top: 50px;
+    width: 460px;
+    margin-right: 100%;
+    padding-bottom: 40px;
+}
+
+.center_box a {
+    margin-left: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: 0.5s ease-out;
+}
+.center_box a:hover {
+    color: rgb(221, 38, 38);
+}
+.center_box img {
+    float: right;
+   margin-top: 140px;
+   margin-right: 240px;
+}
+
+footer {
+    height: 100px;
+    background-color: #f3f3f3;
+}
+.size {
+    width: 600px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: fantasy;
+}
+.size h2 {
+    color: rgb(73, 73, 73);
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.2px black;
+    transition: 0.4s ease-in;
+    width: 1px;
+    -webkit-user-select: none;
+    text-align: center;
+}
+.size h2 {
+    padding-right: 40px;
+}
+.size h2:hover {
+    color: rgb(255, 0, 0);
+}
+
+@media (max-width: 1160px) {
+    * {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        background-size: cover;
+    }
+
+
+}
